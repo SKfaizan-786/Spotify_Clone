@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/spotify-download-logo-30.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Spotify_Clone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ </head>
+ <body>
+     <div class="main">
+          <div class="sidebar">
+              <div class="nav">
+                  <div class="nav_options" style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                 </div>
+                 <div class="nav_options">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <a href="#">Search</a>
+                 </div>
+              </div>    
+             <div class="library">
+                 <div class="option">
+                      <div class="lib_options nav_options">
+                          <img src="./assets/library_icon.png">
+                          <a href="#">Your Library</a>
+                      </div>
+                       <div class="icons">
+                          <i class="fa-solid fa-plus"></i>
+                          <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                 </div>
+                  <div class="lib-box">
+                     <div class="box">
+                         <p class="box-p1">Create your first playlist</p>
+                         <p class="box-p2">It's easy, we'll help you</p>
+                         <button class="badge">Create playlist</button>
+                     </div>
+                       <div class="box">
+                           <p class="box-p1">Let's find some podcast to follow</p>
+                           <p class="box-p2">We'll keep you updated on new episodes</p>
+                           <button class="badge">Browse podcasts</button>
+                       </div>
+                  </div>
+              </div>
+         </div>
+           <div class="main_content">
+              <div class="sticky_nav">
+                 <div class="sticky_nav_icons">
+                     <i class="fa-solid fa-chevron-left">&nbsp; &nbsp;</i>
+                     <i class="fa-solid fa-chevron-right hide"></i>
+                 </div>
+                 <div class="sticky_nav_option">
+                      <button class="badge nav_item hide">Explore premium</button>
+                      <button class="badge nav_item dark_badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                      <i class="fa-regular fa-user nav_item"></i>
+                 </div>
+              </div>
+ 
+             <h2>Recently Played</h2>
+                <div class="cards_container">
+                 <div class="card">
+                      <div id="play">
+                         <img src="./assets/album_img.jpg" class="card_img">
+                          <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                      </div>
+                          <p class="card_title">Sabki Baaratein Aayi</p>
+                          <p class="card_info">Dev Negi, Seepi Jha</p>
+                  </div>
+                    <div class="card">
+                         <div id="play">
+                             <img src="./assets/top_global_default.jpg" class="card_img">
+                             <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                          </div>
+                              <p class="card_title">Top 50 - Global </p>
+                              <p class="card_info">Your daily updates of the most played...</p>
+                  </div>
+              </div>
+         
+                 <h2>Trending now near you</h2>
+                  <div class="cards_container">
+                      <div class="card">
+                          <div id="play">
+                         <img src="./assets/card_2_image.jpg" class="card_img">
+                         <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                         </div>
+                         <p class="card_title">Mere Paas Tum Ho(1 Min M...</p>
+                         <p class="card_info">Silent Ocean</p>
+                      </div>
+                      <div class="card">
+                          <div id="play">
+                             <img src="./assets/card_1_image.jpg" class="card_img">
+                             <img src="./assets/green_buuton.png" id="play" class="hide_img" >
+                          </div>
+                             <p class="card_title">Tum Kya Mile(From "R...</p>
+                             <p class="card_info">Pritam,Arijit Singh,Shreya Ghoshal</p>
+                      </div>
+                       <div class="card">
+                           <div id="play">
+                              <img src="./assets/card_5_image.jpg" class="card_img">
+                              <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                         </div>
+                         <p class="card_title">Naa Ready(From "leo") </p>
+                         <p class="card_info">Anirudh Ravichandra,Thalapathy vijay,Asal Kolaar</p>
+                      </div>
+                       <div class="card">
+                          <div id="play">
+                             <img src="./assets/card_4_image.webp" class="card_img">
+                             <img src="./assets/green_buuton.png" id="play" class="hide_img" >
+                          </div> 
+                            <p class="card_title">Mahiye Jina Sohna...</p>
+                            <p class="card_info">Darshan Raval</p>
+                      </div>
+                        <div class="card">
+                           <div id="play">
+                              <img src="./assets/image_6_card.jpg" class="card_img">
+                              <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                          </div>
+                            <p class="card_title">Ek Tha Tiger</p>
+                            <p class="card_info">Sajid-Wajid,Sohail Sen</p>
+                      </div>
+                  </div>
+                  <h2>Featured Charts</h2>
+                  <div class="cards_container">
+                      <div class="card">
+                          <div id="play">
+                              <img src="./assets/image_global.jpg" class="card_img">
+                              <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                          </div>
+                             <p class="card_title">Top 50 - Global </p>
+                             <p class="card_info">Your daily updates of the most played...</p>
+                          </div>
+                          <div class="card">
+                             <div id="play">
+                                 <img src="./assets/image_india.jpg" class="card_img">
+                                 <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                              </div>
+                                  <p class="card_title">Top 50 - Global </p>
+                                  <p class="card_info">Your daily updates of the most played...</p>
+                              </div>
+                              <div class="card">
+                                  <div id="play">
+                                      <img src="./assets/image_turkey.jpg" class="card_img">
+                                      <img src="./assets/green_buuton.png" id="play" class="hide_img" >
+                                  </div>  
+                                    <p class="card_title">Top 50 - Global </p>
+                                    <p class="card_info">Your daily updates of the most played...</p>
+                              </div>
+                              <div class="card">
+                                   <div id="play">
+                                      <img src="./assets/image_tamil.jpg" class="card_img">
+                                      <img src="./assets/green_buuton.png" id="play" class="hide_img" > 
+                                  </div> 
+                                    <p class="card_title">Top 50 - Global </p>
+                                    <p class="card_info">Your daily updates of the most played...</p>
+                              </div>
+                  </div> 
+                  <div class="footer">
+                      <div class="line"></div>
+                  </div>
+                     <div class="links">
+                            <div class="link">Legal</div>
+                            <div class="link">Privacy Center</div>
+                            <div class="link">Privacy policy</div>
+                            <div class="link">Cookies</div>
+                            <div class="link">About Ads</div>
+                            <div class="link">Accessibility</div>
+                           <div class="Support">
+                                <div class="supp">&copy; 2023 Spotify AB</div>
+                           </div>
+                     </div>
+          </div>
+          <div class="music_player">
+             <div class="album">
+                 <div class="album_icn">
+                     <img src="./assets/album_img.jpg" class="alb_img">
+                     <div class="alb_par">
+                           <div class="title">Sabki Baaratein Aayi</div>
+                           <div class="info">Dev Negi, Seepi Jha</div>
+                     </div>
+                     <div class="left_icons">
+                         <img src="./assets/heart_image.png" class="album_icons">
+                         <img src="./assets/play_play.png" class="album_icons">
+                     </div> 
+                 </div>
+              </div>
+             <div class="play_button">
+                 <div class="play_icons">
+                     <img src="./assets/arrow.png" class="player_control_icons">
+                     <img src="./assets/next.png"class="player_control_icons">
+                     <img src="./assets/playbutton.png" class="player_control_icons" style="height: 2rem; opacity: 1;">
+                     <img src="./assets/back.png" class="player_control_icons">
+                     <img src="./assets/repeat.png" class="player_control_icons">
+                 </div>
+                 <div class="playback_range">
+                     <div class="curr_time" style="font-size: 12px; opacity: 0.8;">0:00</div>
+                     <input type="range" min="0" max="100" class="progress_bar">
+                     <div class="tota_time" style="font-size: 12px; opacity: 0.8;">3:33</div>
+                 </div>
+             </div>
+             <div class="controls">
+                  <div class="control_icons">
+                       <img src="./assets/side_image_1.png"  class="cn_icon">
+                       <!--<img src="./assets/side_image_2.png"  class="cn_icon">-->
+                       <img src="./assets/side_image_3.png"  class="cn_icon">
+                       <img src="./assets/side_image_4.png"  class="cn_icon">
+                       <img src="./assets/side_image_5.png"  class="cn_icon">
+                       <input type="range" min="0" max="100" class="progres_bar" >
+                 </div>
+              </div>
+          </div>
+      </div>
+ </body>
+</html>
